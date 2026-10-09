@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Great Indian Cafe — India, served one layer at a time</title>
+<meta name="description" content="The Great Indian Cafe: royal thalis, tandoor fire, seventeen-spice curries and a table built for sharing. Reserve your table.">
+<link rel="canonical" href="https://cosmic-cheesecake-4b5fe5.netlify.app/">
+<meta property="og:type" content="restaurant"><meta property="og:title" content="The Great Indian Cafe"><meta property="og:description" content="India, served one layer at a time."><meta property="og:image" content="https://cosmic-cheesecake-4b5fe5.netlify.app/og.jpg"><meta property="og:url" content="https://cosmic-cheesecake-4b5fe5.netlify.app/">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="A table laid with biryani, dal, paneer, naan, raita and gulab jamun">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://cosmic-cheesecake-4b5fe5.netlify.app/og.jpg"><meta name="twitter:title" content="The Great Indian Cafe"><meta name="twitter:description" content="India, served one layer at a time.">
+<meta name="theme-color" content="#FAFAF8">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🍛%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..500;1,9..144,300..400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FAFAF8;--ink:#2B2320;--mut:#756B66;--sur:#F1ECE5;--bd:#DED7CF;--acc:#A94F2B;--serif:'Fraunces',Georgia,serif;--sans:'Inter',system-ui,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.eb{font:500 .7rem/1.4 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--mut)}
+.lk{position:relative;display:inline-block;font:500 .75rem var(--sans);letter-spacing:.14em;text-transform:uppercase;padding:.3rem 0;transition:transform .2s}
+.lk::after{content:"";position:absolute;left:0;bottom:0;height:1px;width:100%;background:currentColor;transform:scaleX(.25);transform-origin:left;transition:transform .25s}
+.lk:hover::after,.lk:focus-visible::after{transform:scaleX(1)}
+.lk .ar{display:inline-block;transition:transform .2s}.lk:hover .ar{transform:translate(2px,-2px)}
+/* loader */
+#ld{position:fixed;inset:0;z-index:99;background:var(--bg);display:grid;place-content:center;justify-items:center;gap:.9rem;transition:opacity .6s,visibility .6s}
+#ld.done{opacity:0;visibility:hidden}
+#ld{animation:ldf .01s 6s forwards}@keyframes ldf{to{opacity:0;visibility:hidden}}
+#ld .bar{width:140px;height:1px;background:var(--bd)}#ld .bar i{display:block;height:1px;width:0;background:var(--ink);transition:width .4s}
+/* nav */
+header{position:fixed;inset:0 0 auto;z-index:50;display:flex;justify-content:space-between;align-items:center;padding:calc(1rem + env(safe-area-inset-top,0px)) 5vw 1rem;transition:background .3s,border-color .3s;border-bottom:1px solid transparent}
+header.sc{background:rgba(250,250,248,.94);border-color:var(--bd)}
+.wm{font:500 .72rem var(--sans);letter-spacing:.2em}
+nav ul{display:flex;gap:2rem;list-style:none;margin:0;padding:0}
+#mb{display:none;background:none;border:0;font:500 .72rem var(--sans);letter-spacing:.16em;text-transform:uppercase;color:inherit;cursor:pointer;padding:.5rem 0}
+/* films */
+.film{position:relative;background:var(--bg)}
+.stage{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden}
+.stage svg,.stage video{position:absolute;inset:0;width:100%;height:100%}
+.stage svg{padding-top:56px}.hero .stage svg{padding-top:24vh}
+.stage video{object-fit:cover;opacity:0;transition:opacity .4s}.stage.ready video{opacity:1}.stage.ready svg{visibility:hidden}
+.cue{position:absolute;max-width:min(34rem,90vw);opacity:0;pointer-events:none;will-change:opacity}
+.cue.tl{top:15%;left:5vw}.cue.bl{bottom:9%;left:5vw}.cue.tr{top:15%;right:5vw;text-align:right}.cue.br{bottom:9%;right:5vw;text-align:right}.cue.tc{top:14%;left:50%;translate:-50% 0;text-align:center}.cue.bc{bottom:9%;left:50%;translate:-50% 0;text-align:center}
+.h{font:300 clamp(2.2rem,6.2vw,5.8rem)/.96 var(--serif);letter-spacing:-.025em;margin:0;text-transform:uppercase}
+.h.xl{font-size:clamp(2.8rem,9vw,9rem)}.h.sm{font-size:clamp(1.6rem,3.6vw,3.2rem);text-transform:none;letter-spacing:-.015em}
+.h em{font-style:italic;text-transform:none}
+.cue p{margin:.9rem 0 0;color:var(--mut)}.cue .sub{font:300 italic clamp(1.1rem,2vw,1.6rem)/1.3 var(--serif);color:var(--ink)}
+.lb{font:400 2.1px var(--serif);fill:#2B2320;text-anchor:middle}.sb{font:500 1px var(--sans);fill:#756B66;letter-spacing:.2px;text-anchor:middle;text-transform:uppercase}
+.ln{stroke:#2B2320;stroke-width:.12;opacity:.4}
+.i{transition:none}
+/* menu */
+.wrap{padding:0 5vw}
+#menu{padding:12vh 5vw 8vh;border-top:1px solid var(--bd)}
+.mg{display:grid;grid-template-columns:1fr 2fr;gap:6vw;margin-top:3rem}
+.cat{margin-bottom:3.5rem}.cat h3{font:500 .72rem var(--sans);letter-spacing:.16em;text-transform:uppercase;margin:0 0 1rem;padding-bottom:.8rem;border-bottom:1px solid rgba(43,35,32,.15);color:var(--mut)}
+.dish{display:grid;grid-template-columns:1.2rem 1fr;gap:.2rem;padding:.9rem 0}
+.dish b{font:400 1.45rem/1.2 var(--serif);letter-spacing:-.01em}.dish span.d{grid-column:2;color:var(--mut);font-size:.9rem}
+.vg{width:.7rem;height:.7rem;border:1px solid #3d7a3a;display:grid;place-items:center;margin-top:.5rem}.vg::after{content:"";width:.34rem;height:.34rem;border-radius:50%;background:#3d7a3a}.nv{border-color:#8a2f1b}.nv::after{background:#8a2f1b}
+.note{color:var(--mut);font-size:.8rem}
+/* close */
+#visit{background:var(--sur);padding:16vh 5vw 10vh}
+#visit .h{font-size:clamp(2.6rem,8vw,8rem)}
+.cg{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:2rem;margin:4rem 0;padding-top:2rem;border-top:1px solid rgba(43,35,32,.15)}
+.cg p{margin:.3rem 0 0}.cta{display:flex;gap:2.5rem;flex-wrap:wrap;margin-top:2rem}.cta .lk:first-child{color:var(--acc)}
+footer{padding:2.5rem 5vw calc(2rem + env(safe-area-inset-bottom,0px));display:flex;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;border-top:1px solid var(--bd);font-size:.8rem}
+footer div{display:flex;gap:1.6rem}footer .c{color:var(--mut)}
+/* reduced motion / static */
+.rm .film{height:auto!important}.rm .stage{position:relative;height:auto;overflow:visible;padding-bottom:3rem}.rm .stage svg{position:relative;height:70vh}.rm .cue{position:static;opacity:1!important;padding:1rem 5vw;max-width:none;translate:none;text-align:left}.rm html{scroll-behavior:auto}
+@media(max-width:760px){
+nav ul{position:fixed;inset:0 0 auto;top:0;padding:5.5rem 5vw 2rem;flex-direction:column;gap:1.2rem;background:var(--bg);border-bottom:1px solid var(--bd);transform:translateY(-110%);transition:transform .3s;z-index:-1}
+nav.open ul{transform:none}#mb{display:block}
+.cue.tl,.cue.tr,.cue.tc{top:11%;left:5vw;right:5vw;translate:none;text-align:left}.cue.bl,.cue.br,.cue.bc{bottom:7%;left:5vw;right:5vw;translate:none;text-align:left}
+.mg{grid-template-columns:1fr;gap:1rem}}
+@media(max-width:760px){
+html{-webkit-text-size-adjust:100%}
+header{background:rgba(250,250,248,.9);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+#mb{min-height:44px;min-width:44px}
+nav ul li a.lk{display:block;padding:.7rem 0;font-size:.85rem}
+.lk{min-height:44px;display:inline-flex;align-items:center}
+.stage video{object-fit:contain}
+.lb{font-size:2.9px}
+.h{font-size:clamp(2rem,10vw,3rem)}.h.xl{font-size:clamp(2.6rem,13vw,4rem)}.h.sm{font-size:clamp(1.5rem,7vw,2.2rem)}
+.cue .sub{font-size:1.15rem}
+#menu{padding:10vh 6vw 6vh}#visit{padding:12vh 6vw 8vh}
+.dish b{font-size:1.3rem}
+.cg{margin:2.5rem 0;gap:1.5rem}.cta{gap:1.2rem;flex-direction:column}
+footer{flex-direction:column;align-items:flex-start}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition-duration:.01ms!important}}
+</style>
+</head>
+<body>
+<div id="ld" role="status"><span class="wm">THE GREAT INDIAN CAFE</span><span class="eb">Preparing the table…</span><div class="bar"><i id="lb"></i></div></div>
+<header id="hd"><a class="wm" href="#top">THE GREAT INDIAN CAFE</a>
+<nav id="nv" aria-label="Primary"><button id="mb" aria-expanded="false" aria-controls="nl">Menu</button><ul id="nl"></ul></nav></header>
+<main id="top"><div id="films"></div>
+<section id="menu" aria-labelledby="mh"><p class="eb">The menu</p><h2 class="h sm" id="mh" style="margin-top:.6rem">A short list, <em>cooked properly.</em></h2><div class="mg" id="mg"></div></section>
+<section id="visit" aria-labelledby="vh"><h2 class="h" id="vh">Come hungry.<br>Leave with a <em>story.</em></h2>
+<div class="cg" id="cg"></div><div class="cta" id="cta"></div></section></main>
+<footer><span class="wm">THE GREAT INDIAN CAFE</span><div id="ft"></div><span class="c">© The Great Indian Cafe</span></footer>
+<noscript><div style="padding:6rem 5vw"><h1>The Great Indian Cafe</h1><p>India, served one layer at a time. Enable JavaScript for the full scroll experience.</p></div></noscript>
+
+<script>const VIDS={thali:'media/thali.mp4',samosa:'media/samosa.mp4',spice:'media/spice.mp4',chutney:'media/chutney.mp4',tandoor:'media/tandoor.mp4',table:'media/table.mp4'};
+</script>
+<script>
+/* ============ CONTENT & MEDIA CONFIG — edit only this block ============ */
+const SITE={name:'The Great Indian Cafe',tagline:'India, served one layer at a time.',url:'https://cosmic-cheesecake-4b5fe5.netlify.app/',phone:'+91 8123070360',email:'nazeerssgaming@gmail.com',
+ address:{street:'Street address placeholder',city:'City',region:'Region',zip:'000000',country:'IN'},
+ hours:[{days:['Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],opens:'12:00',closes:'23:00'}],hoursText:'Tuesday–Sunday, 12:00–23:00',
+ social:{Instagram:'#',Directions:'#visit',Reservations:'#reserve'},reserveUrl:'#reserve',menuUrl:'#menu',priceRange:'$$'};
+const NAV=[['Menu','#menu'],['Story','#story'],['Visit','#visit'],['Reserve','#reserve']];
+const MENU=[['Small plates',[['Samosa chaat',1,'Crisp pastry · spiced potato · tamarind · mint'],['Hara bhara kebab',1,'Spinach · peas · green chilli']]],
+ ['From the tandoor',[['Paneer tikka',1,'Charred paneer · pepper · hung yoghurt'],['Chicken tikka',0,'Kashmiri chilli · mustard oil · lemon']]],
+ ['Curries',[['Dal makhani',1,'Black lentils · tomato · cultured butter'],['Butter chicken',0,'Tomato · fenugreek · cream']]],
+ ['Rice & biryani',[['Dum biryani',0,'Saffron rice · slow cooked chicken · fried onion']]],
+ ['Breads',[['Garlic naan',1,'Tandoor-baked · garlic · coriander']]],['Sweets',[['Gulab jamun',1,'Milk dumplings · cardamom syrup · pistachio']]]];
+/* MEDIA: drop final Google Flow footage in /media and fill sources. Empty = built-in placeholder renders.
+   Variants: d = desktop, m = mobile (GOP≈3 re-encode). Poster = .webp. mode:'video' (frame sequences can replace it later via a new "mode"). */
+const M=(n)=>({poster:`media/${n}-poster.webp`,d:[],m:[]}); // e.g. d:[{src:`media/${n}-desktop.webm`,type:'video/webm'},{src:`media/${n}-desktop.mp4`,type:'video/mp4'}]
+/* item: [name,color,r,fromX,fromY,toX,toY,startProgress,label(0|1|[a,b]),shape(c|t|r),endRotation] */
+const THALI=[['Thali plate','#E6DDCF',33,50,52,50,70,0,0],['Basmati rice','#F6F1E4',9,50,52,50,34,0,1],['Dal','#C98A2B',6.5,38,45,17,26,.02,1],['Paneer','#B5532C',6.5,62,45,83,26,.02,1],['Raita','#EFE7D6',5.5,39,63,15,56,.04,1],['Sabzi','#6B7F3A',5.5,61,63,85,56,.04,1],['Naan','#D9B27A',8,50,66,50,90,.06,1],['Gulab jamun','#6E2E1C',4.5,50,36,50,10,.08,1]];
+const SPN=['Cumin','Coriander seed','Turmeric','Cardamom','Clove','Cinnamon','Black pepper','Star anise','Fennel','Mustard seed','Fenugreek','Chilli','Bay leaf','Mace','Nutmeg','Ajwain','Saffron'];
+const SPC=['#9A7B4F','#B49A5C','#D99A1E','#7C8B4A','#4B3326','#A9643A','#2E2824','#7A3F26','#A8A56A','#5D4A2B','#C0903C','#B5301F','#6F7A3E','#D2793A','#8A5A36','#8B7C52','#C8452A'];
+const SPICES=SPN.map((n,i)=>[n,SPC[i],3.3,36+(i%6)*5.6+Math.sin(i)*2,74+Math.floor(i/6)*3.5,16+(i%5)*17+(Math.floor(i/5)%2)*6,16+Math.floor(i/5)*17+Math.cos(i*2)*2,i*.012,[.42+i*.03,.55+i*.03]]);
+const FILMS=[
+ {id:'hero',cap:.06,vh:[150,130],still:0,bg:'#E9DBC6',items:THALI,media:{poster:'media/01-thali-poster.webp',d:[{src:VIDS.thali,type:'video/mp4'}],m:[{src:VIDS.thali,type:'video/mp4'}]},alt:'A complete royal Indian thali on a warm paper background',
+  cues:[{a:-1,b:.75,pos:'tc',h:'<span class="eb">Now serving</span><br><br>The great<br>Indian Cafe',xl:1,s:SITE.tagline,p:'Scroll to unfold the feast ↓'}]},
+ {id:'story',vh:[520,420],still:.9,bg:'#E9DBC6',items:THALI,media:{poster:'media/01-thali-poster.webp',d:[{src:VIDS.thali,type:'video/mp4'}],m:[{src:VIDS.thali,type:'video/mp4'}]},alt:'The thali separating into rice, dal, paneer, raita, sabzi, naan and gulab jamun',
+  cues:[{a:.06,b:.45,pos:'tl',h:'Not a plate.<br><em>A geography.</em>'},{a:.55,b:1.1,pos:'bl',h:'Every bowl carries a different direction home.',sm:1}]},
+ {id:'samosa',vh:[500,400],still:.92,bg:'#EDE3D3',lines:1,media:{poster:'media/02-samosa-poster.webp',d:[{src:VIDS.samosa,type:'video/mp4'}],m:[{src:VIDS.samosa,type:'video/mp4'}]},alt:'A samosa separating into potato, peas, cumin, coriander, green chilli, ginger, garam masala, amchur and salt',
+  items:[['Shell','#D9A441',15,47,52,16,18,0,0,'t',-18],['Shell','#C9912F',15,53,54,86,86,0,0,'t',160],['Potato','#E3C987',8,50,50,50,50,.15,1],['Green peas','#7FA33A',3.6,50,50,78,36,.2,1],['Cumin','#9A7B4F',3,50,50,32,30,.25,1],['Coriander','#6F8F3A',4,50,50,20,56,.3,1],['Green chilli','#3F7A2E',3.6,50,50,34,80,.35,1],['Ginger','#D8B26A',4,50,50,64,80,.4,1],['Garam masala','#8A4B2A',3.6,50,50,82,60,.45,1],['Amchur','#CFAE6A',3.6,50,50,54,20,.5,1],['Salt','#EDEAE4',3,50,50,72,12,.55,1]],
+  cues:[{a:-1,b:.3,pos:'tl',h:'Anatomy of a samosa',sm:1},{a:.7,b:1.1,pos:'bl',h:'Simple ingredients.<br><em>Impossible restraint.</em>',sm:1}]},
+ {id:'spice',vh:[560,440],still:.9,bg:'#EDE3D3',media:{poster:'media/03-spices-poster.webp',d:[{src:VIDS.spice,type:'video/mp4'}],m:[{src:VIDS.spice,type:'video/mp4'}]},alt:'Seventeen Indian spices rising into a suspended cloud',items:SPICES,
+  cues:[{a:-1,b:.3,pos:'bl',h:'Seventeen ways<br>to change a dish.'},{a:.6,b:1.1,pos:'br',h:'',s:'Heat. Earth. Smoke. Sweetness. Bitterness. Memory.'}]},
+ {id:'chutney',vh:[460,380],still:.85,bg:'#EDE3D3',media:{poster:'media/04-chutney-poster.webp',d:[{src:VIDS.chutney,type:'video/mp4'}],m:[{src:VIDS.chutney,type:'video/mp4'}]},alt:'Mint-coriander and tamarind chutneys pouring in suspended ribbons',
+  items:[['Mint + coriander','#7C9A3C',9,30,6,30,6,0,0],['Tamarind + jaggery','#5B2F1A',9,70,6,70,6,0,0],['Mint + coriander','#7C9A3C',11,30,88,30,88,.45,[.7,2]],['Tamarind + jaggery','#5B2F1A',11,70,88,70,88,.45,[.7,2]]],
+  ribbons:[{d:'M30 10C30 40 46 46 31 80',c:'#7C9A3C',w:3.6,m:'draw'},{d:'M70 10C70 40 54 46 69 80',c:'#5B2F1A',w:3.6,m:'draw'}],
+  cues:[{a:-1,b:1.1,pos:'tl',h:'Sharp.<br>Sweet.<br><em>Somewhere between.</em>'}]},
+ {id:'fire',vh:[620,480],still:.85,bg:'#F4E9DD',char:1,media:{poster:'media/05-tandoor-poster.webp',d:[{src:VIDS.tandoor,type:'video/mp4'}],m:[{src:VIDS.tandoor,type:'video/mp4'}]},alt:'Naan, paneer tikka, chicken tikka and vegetables charring in tandoor heat',
+  items:[['Naan','#E0BE86',11,-12,50,30,58,0,1],['Paneer tikka','#D9893A',7,112,28,70,36,.05,1],['Chicken tikka','#C8662E',7,112,72,70,74,.1,1],['Charred vegetables','#6F8A3C',6,50,-12,50,26,.15,1]],
+  ribbons:[{d:'M44 60C38 48 52 40 46 24',c:'#756B66',w:1.4,m:'fade',o:.25},{d:'M56 62C62 50 48 42 55 22',c:'#756B66',w:1.8,m:'fade',o:.2}],
+  cues:[{a:-1,b:1.1,pos:'tl',h:"Fire doesn't add flavour.<br><em>It reveals it.</em>",sm:1}]},
+ {id:'table',vh:[480,400],still:1,bg:'#FAFAF8',media:{poster:'media/06-table-poster.webp',d:[{src:VIDS.table,type:'video/mp4'}],m:[{src:VIDS.table,type:'video/mp4'}]},alt:'A fully laid Indian dining table with biryani, naan, dal, curries, chutneys and sweets',
+  items:[['Biryani','#E8C46A',12,50,-22,50,50,0,1],['Naan','#D9B27A',9,-20,34,22,32,.05,1],['Dal','#C98A2B',8,120,34,78,32,.1,1],['Paneer','#B5532C',7,-20,92,24,70,.15,1],['Raita','#EFE7D6',5,50,-20,50,20,.2,0],['Mint chutney','#7C9A3C',4.5,120,92,72,68,.25,0],['Tamarind chutney','#5B2F1A',4.5,120,92,82,74,.28,0],['Sweets','#6E2E1C',6,50,122,50,82,.32,1],['Fork','#B9B2A8',6,-10,50,10,50,.4,0,'r'],['Knife','#B9B2A8',6,110,50,90,50,.4,0,'r']],
+  cues:[{a:.55,b:1.1,pos:'bc',h:'Everything finds<br>its place at the table.',sm:1,s:'Recipes travel. Tables remember.'}]}
+];
+/* ============ ENGINE ============ */
+const $=s=>document.querySelector(s),C=x=>Math.max(0,Math.min(1,x)),L=(a,b,t)=>a+(b-a)*t,E=t=>1-Math.pow(1-t,3);
+const RM=matchMedia('(prefers-reduced-motion:reduce)').matches,MOB=matchMedia('(max-width:760px)').matches;
+if(RM)document.documentElement.classList.add('rm'),document.body.classList.add('rm');
+// content from config
+$('#nl').innerHTML=NAV.map(n=>`<li><a class="lk" href="${n[1]}">${n[0]}</a></li>`).join('');
+$('#mg').innerHTML=MENU.map((c,i)=>`<div class="cat" style="display:contents"><p class="eb">0${i+1} / ${c[0]}</p><div class="cat"><h3 class="sr">${c[0]}</h3>${c[1].map(d=>`<div class="dish"><span class="vg ${d[1]?'':'nv'}" role="img" aria-label="${d[1]?'Vegetarian':'Non-vegetarian'}"></span><b>${d[0]}</b><span class="d">${d[2]}</span></div>`).join('')}</div></div>`).join('')+'';
+$('#cg').innerHTML=`<div><p class="eb">Address</p><p>${SITE.address.street}, ${SITE.address.city}</p></div><div><p class="eb">Hours</p><p>${SITE.hoursText}</p></div><div><p class="eb">Telephone</p><p><a href="tel:${SITE.phone.replace(/\s/g,'')}">${SITE.phone}</a></p></div><div><p class="eb">Email</p><p><a href="mailto:${SITE.email}">${SITE.email}</a></p></div>`;
+$('#cta').outerHTML=`<div class="cta" id="reserve"><a class="lk" href="${SITE.reserveUrl}">Reserve a table <span class="ar">↗</span></a><a class="lk" href="${SITE.menuUrl}">View the menu <span class="ar">↗</span></a></div>`;
+$('#ft').innerHTML=Object.entries(SITE.social).map(([k,v])=>`<a class="lk" href="${v}">${k}</a>`).join('');
+const ld=document.createElement('script');ld.type='application/ld+json';
+ld.textContent=JSON.stringify({'@context':'https://schema.org','@type':'Restaurant',name:SITE.name,image:FILMS.map(f=>SITE.url+f.media.poster),url:SITE.url,servesCuisine:'Indian',priceRange:SITE.priceRange,telephone:SITE.phone,email:SITE.email,
+ address:{'@type':'PostalAddress',streetAddress:SITE.address.street,addressLocality:SITE.address.city,addressRegion:SITE.address.region,postalCode:SITE.address.zip,addressCountry:SITE.address.country},
+ openingHoursSpecification:SITE.hours.map(h=>({'@type':'OpeningHoursSpecification',dayOfWeek:h.days,opens:h.opens,closes:h.closes})),acceptsReservations:true,menu:SITE.url+'#menu'});
+document.head.appendChild(ld);
+
+// ScrollFilm: one section = tall container + sticky stage + (video | placeholder) + cue text
+const NS='http://www.w3.org/2000/svg',vb=MOB?'8 0 84 100':'0 0 100 100',films=[];
+class ScrollFilm{
+ constructor(f,i){this.f=f;this.p=-1;this.vis=false;this.v=null;this.ready=false;
+  const s=document.createElement('section');s.className='film'+(f.id==='hero'?' hero':'');s.id=f.id;s.style.height=RM?'auto':f.vh[+MOB]+'vh';s.style.background=f.bg;
+  s.setAttribute('aria-label',f.alt);
+  const cues=f.cues.map((c,k)=>{const T=i===0||c.h&&k===0?'h2':'p';return `<div class="cue ${c.pos}" data-k="${k}">${c.h?`<${i===0?'h1':'h2'} class="h ${c.xl?'xl':''} ${c.sm?'sm':''}">${c.h}</${i===0?'h1':'h2'}>`:''}${c.s?`<p class="sub">${c.s}</p>`:''}${c.p?`<p class="eb">${c.p}</p>`:''}</div>`}).join('');
+  s.innerHTML=`<div class="stage"><svg viewBox="${vb}" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false"></svg>${cues}</div>`;
+  this.el=s;this.stage=s.firstChild;this.svg=this.stage.querySelector('svg');this.cues=[...this.stage.querySelectorAll('.cue')];
+  this.build();document.getElementById('films').appendChild(s)}
+ build(){const f=this.f;let h='';
+  (f.ribbons||[]).forEach(r=>h+=`<path d="${r.d}" fill="none" stroke="${r.c}" stroke-width="${r.w}" stroke-linecap="round" pathLength="100" class="rb"/>`);
+  f.items.forEach(it=>{const[n,c,r,,,,,,lab,sh,rot]=it,shp=sh==='t'?`<polygon points="0,${-r} ${r*.95},${r*.7} ${-r*.95},${r*.7}" fill="${c}" stroke="#2B2320" stroke-opacity=".18" stroke-width=".15"/>`:sh==='r'?`<rect x="${-r*.09}" y="${-r}" width="${r*.18}" height="${r*2}" rx=".3" fill="${c}"/>`:`<circle r="${r}" fill="${c}" stroke="#2B2320" stroke-opacity=".18" stroke-width=".15"/><circle r="${r*.72}" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width=".25"/>${f.char?`<circle r="${r}" fill="#2B2320" class="ch" opacity="0"/>`:''}`;
+   h+=`${f.lines&&lab?'<line class="ln" opacity="0"/>':''}<g class="i">${shp}</g>${lab?`<text class="lb" opacity="0">${n}</text>`:''}`});
+  this.svg.innerHTML=h;let k=0;this.nodes=f.items.map(it=>{const g=this.svg.querySelectorAll('.i')[k++];return{g,ch:g.querySelector('.ch'),t:it[8]?g.nextElementSibling:null,ln:f.lines&&it[8]?g.previousElementSibling:null}});this.rbs=[...this.svg.querySelectorAll('.rb')]}
+ draw(p){const f=this.f;
+  f.items.forEach((it,i)=>{const[n,c,r,fx,fy,tx,ty,s,lab,sh,rot]=it,n_=this.nodes[i],e=E(C((p-s)/(.85-s))),x=L(fx,tx,e),y=L(fy,ty,e),o=s>0&&f.id!=='table'&&f.id!=='fire'?C((p-s)*8):1;
+   n_.g.setAttribute('transform',`translate(${x} ${y}) rotate(${(rot||0)*e})`);n_.g.setAttribute('opacity',o);if(n_.ch)n_.ch.setAttribute('opacity',(e*.55).toFixed(3));
+   if(n_.t){const w=Array.isArray(lab)?lab:[.8,2],on=p>=w[0]&&p<=w[1]&&e>.6?1:0;n_.t.setAttribute('x',x);n_.t.setAttribute('y',y+r+3.4);n_.t.setAttribute('opacity',on);
+    if(n_.ln){n_.ln.setAttribute('x1',50);n_.ln.setAttribute('y1',50);n_.ln.setAttribute('x2',x);n_.ln.setAttribute('y2',y);n_.ln.setAttribute('opacity',on?.4:0)}}});
+  this.rbs.forEach((r,i)=>{const d=f.ribbons[i];if(d.m==='draw'){const q=C(p*1.15);r.setAttribute('stroke-dasharray',`${q*100} 100`)}else r.setAttribute('stroke-opacity',d.o*C(p*1.6))})}
+ cue(p){this.f.cues.forEach((c,k)=>{this.cues[k].style.opacity=RM?1:Math.min(1,Math.max(0,Math.min((p-c.a)/.08,(c.b-p)/.08)))})}
+ update(){const r=this.el.getBoundingClientRect(),span=this.el.offsetHeight-this.stage.offsetHeight;let p=RM?this.f.still:C(-r.top/Math.max(1,span));
+  if(p===this.p&&!this.retry)return;this.p=p;this.retry=false;this.draw(p*(this.f.cap||1));this.cue(p);
+  if(this.v&&this.ready&&this.v.readyState>=1&&!this.v.seeking&&this.v.duration){const t=p*(this.f.cap||1)*(this.v.duration-.05);if(Math.abs(this.v.currentTime-t)>.03)this.v.currentTime=t;else{}}}
+ load(){if(this.v||RM)return;const src=this.f.media[MOB?'m':'d'];if(!src.length)return; // placeholder stays
+  const v=document.createElement('video');v.muted=true;v.defaultMuted=true;v.playsInline=true;v.preload='auto';v.loop=false;
+  v.setAttribute('muted','');v.setAttribute('playsinline','');v.setAttribute('webkit-playsinline','');v.disablePictureInPicture=true;v.setAttribute('aria-hidden','true');
+  src.forEach(s=>{const o=document.createElement('source');o.src=s.src;o.type=s.type;v.appendChild(o)});
+  const ok=()=>{if(this.ready)return;this.ready=true;this.stage.classList.add('ready');this.retry=true;dirty=true};
+  ['loadeddata','canplay','canplaythrough'].forEach(ev=>v.addEventListener(ev,ok));
+  v.addEventListener('seeked',()=>{this.retry=true;dirty=true});
+  v.addEventListener('error',()=>{this.ready=false;this.stage.classList.remove('ready')});
+  this.prime=()=>{if(this.ready&&v.readyState>=2)return;try{const pr=v.play();if(pr&&pr.then)pr.then(()=>v.pause()).catch(()=>{})}catch(e){}};
+  this.v=v;this.stage.prepend(v);v.load();this.prime();setTimeout(()=>this.prime(),600)}}
+FILMS.forEach((f,i)=>films.push(new ScrollFilm(f,i)));
+let dirty=true;addEventListener('scroll',()=>dirty=true,{passive:true});addEventListener('resize',()=>dirty=true);addEventListener('orientationchange',()=>dirty=true);
+const io=new IntersectionObserver(es=>es.forEach(e=>{const fl=films.find(x=>x.el===e.target);fl.vis=e.isIntersecting;if(e.isIntersecting){fl.load();dirty=true}}),{rootMargin:'100% 0px'});
+films.forEach(f=>io.observe(f.el));
+['touchstart','pointerdown','scroll','keydown'].forEach(ev=>addEventListener(ev,()=>films.forEach(f=>f.v&&!f.ready&&f.prime&&f.prime()),{passive:true,once:ev!=='scroll'}));
+const hd=$('#hd');
+(function tick(){if(dirty){dirty=false;films.forEach(f=>f.vis&&f.update());hd.classList.toggle('sc',scrollY>40)}requestAnimationFrame(tick)})();
+$('#mb').onclick=()=>{const o=$('#nv').classList.toggle('open');$('#mb').setAttribute('aria-expanded',o)};
+$('#nl').addEventListener('click',()=>{$('#nv').classList.remove('open');$('#mb').setAttribute('aria-expanded',false)});
+// loader: real steps only (DOM drawn → fonts ready → hero media ready)
+$('#lb').style.width='40%';
+Promise.race([document.fonts.ready,new Promise(r=>setTimeout(r,2500))]).then(()=>{$('#lb').style.width='100%';setTimeout(()=>$('#ld').classList.add('done'),350);dirty=true});
+</script>
+</body>
+</html>
